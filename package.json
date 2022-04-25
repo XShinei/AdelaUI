@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gc": "node ./scripts/gc.js"
   },
   "repository": {
     "type": "git",
