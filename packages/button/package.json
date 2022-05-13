@@ -1,0 +1,10 @@
+{
+  "name": "@adale-ui/button",
+  "description": "",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/test-utils": "^2.0.0-rc.21"
+  }
+}
