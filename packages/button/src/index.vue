@@ -62,7 +62,7 @@
     return props.disabled;
   });
 
-  const handleClick = (evt) => {
+  const handleClick = (evt: MouseEvent) => {
     emit('click', evt)
   };
 

@@ -7,10 +7,10 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "target": "ES6",
-    "lib": [
-      "ESNext"
-    ]
+    "jsx": "preserve",
+    "lib": ["ESNext"],
+    "types": ["vite/client"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "packages/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
